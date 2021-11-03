@@ -1,10 +1,10 @@
 import "./badge.css";
 
-const badge = () => {
+const badge = ({ label, value }) => {
   return (
     <div className="badge">
-      <div>badge</div>
-      <span>2</span>
+      <div>{label}</div>
+      <span>{value}</span>
     </div>
   );
 };
