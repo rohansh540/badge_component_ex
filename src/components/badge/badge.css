@@ -1,0 +1,33 @@
+.badge {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(148, 167, 218);
+  font-weight: bold;
+  width: 100px;
+  color: rgb(64, 64, 136);
+  padding: 10px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.badge:hover {
+  background: gray;
+  color: black;
+}
+
+.badge span {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: -20px;
+  right: -5px;
+  font-size: 25px;
+  color: white;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
