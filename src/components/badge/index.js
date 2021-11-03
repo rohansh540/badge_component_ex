@@ -1,8 +1,8 @@
 import "./badge.css";
 
-const badge = ({ label, value }) => {
+const badge = ({ label, value, variant }) => {
   return (
-    <div className="badge">
+    <div className={`badge ` + variant}>
       <div>{label}</div>
       <span>{value}</span>
     </div>

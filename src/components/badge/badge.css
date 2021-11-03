@@ -12,6 +12,21 @@
   cursor: pointer;
 }
 
+.error {
+  background: rgb(248, 170, 170);
+  color: red;
+}
+
+.success {
+  background: rgb(164, 207, 164);
+  color: green;
+}
+
+.warning {
+  background: rgb(245, 245, 160);
+  color: darkorange;
+}
+
 .badge:hover {
   background: gray;
   color: black;
